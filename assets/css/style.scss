@@ -2,3 +2,34 @@
 ---
 
 @import "jekyll-theme-minimal";
+
+// body {
+//     margin:0;
+//     padding:0;
+// }
+
+// .main-padding {
+//     margin: 8px;
+//     padding: 50px;
+// }
+
+.site-nav-header {
+    .page-link {
+        font-size:large;
+        display: block;
+        width: fit-content; 
+        margin: 10px 0 10px 0;
+        transition-duration: 400ms;
+        color: black;
+        text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+        &.current {
+            text-decoration: underline 0.15em rgb(50, 50, 50);
+        }
+        &:hover {
+            color: rgb(100, 100, 100);
+            font-weight:normal;
+            text-decoration: underline 0.15em rgba(100, 100, 100, 1);    
+        }
+    }
+    padding-bottom: 10px;
+}
