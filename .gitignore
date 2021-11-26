@@ -1,5 +1,9 @@
+.gitignore
+.git
+.github
 _site
 .sass-cache
 Gemfile.lock
 *.gem
 .jekyll-cache
+.jekyll-metadata
