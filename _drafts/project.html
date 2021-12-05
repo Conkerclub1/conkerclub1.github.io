@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="project">
+  <h1 class="project-title">{{ page.title }}</h1>
+  <hr>
+  {{ content }}
+</div>
+
+<div>
+  <object
+    data={{page.report}}
+    type="application/pdf"
+    width="100%"
+    height="678"
+    zoom="100"
+    view="fit"
+  >
+
+    <iframe
+      src={{page.report}}
+      width="100%"
+      height="678"
+      zoom="100"
+      view="fit"
+    >
+    <p>This browser does not support PDF!</p>
+    </iframe>
+
+  </object>
+</div>

@@ -20,7 +20,8 @@ gem 'github-pages', group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
-  # gem "jekyll-remote-theme"
+  gem "jekyll-paginate"
+  gem "jekyll-gist"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -38,4 +39,4 @@ gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 gem "kramdown-parser-gfm"
 
 # git_source(:github) { |conkerclub1.github.io| "https://github.com/Conkerclub1/conkerclub1.github.io.git" }
-gemspec
+# gemspec
