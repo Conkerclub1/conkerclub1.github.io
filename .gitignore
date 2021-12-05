@@ -2,6 +2,7 @@
 .git
 .github
 _site
+_drafts
 .sass-cache
 Gemfile.lock
 *.gem
